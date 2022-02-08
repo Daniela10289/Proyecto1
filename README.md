@@ -20,3 +20,4 @@ git reset:  volvemos al pasado sin la posibilidad de volver al futuro. Borramos 
     git reset --soft: Borramos todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging
     git reset HEAD: sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit                         
 
+git commit -am "mensaje": para subir los cambios sin decir git add
