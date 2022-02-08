@@ -8,6 +8,7 @@ explorer.exe .
 file://wsl.localhost/Ubuntu-20.04/home/daniela/MyCourser/Proyecto1/blogpost.html
 
 git checkout (numero del commit): ver la primera version 
+git checkout (rama): devuelve el head a la rama que necesito 
 
 git rm: borra archivos sin eliminar su historial del sistema de versiones
     uso
