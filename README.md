@@ -22,3 +22,20 @@ git reset:  volvemos al pasado sin la posibilidad de volver al futuro. Borramos 
     git reset HEAD: sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit                         
 
 git commit -am "mensaje": para subir los cambios sin decir git add
+
+cambiar email global
+desde el home
+git -config --global user.email "email.gmail.com"
+
+crear llave ssh
+desde el home
+ssh-keygen -t rsa -b 4096 -C "dpalacio2200@gmail.com"
+
+verificar
+eval $(ssh-agent -s)
+
+agregar la llave ssh
+ssh-add ~/.ssh/id_rsa
+
+cambiar http por ssh
+git remote set-url origin (url del proyecto ssh)
