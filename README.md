@@ -23,6 +23,8 @@ git reset:  volvemos al pasado sin la posibilidad de volver al futuro. Borramos 
 
 git commit -am "mensaje": para subir los cambios sin decir git add
 
+alias arbol="git log --all --graph --decorate --oneline"
+
 cambiar email global
 desde el home
 git -config --global user.email "email.gmail.com"
@@ -40,5 +42,7 @@ ssh-add ~/.ssh/id_rsa
 cambiar http por ssh
 git remote set-url origin (url del proyecto ssh)
 
-historial de las ramas a detalle
+historial de las ramas a detallegit
 git show-branch --all
+
+los archivos binarios no se deberian agregar al repositorio
