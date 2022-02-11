@@ -39,3 +39,6 @@ ssh-add ~/.ssh/id_rsa
 
 cambiar http por ssh
 git remote set-url origin (url del proyecto ssh)
+
+historial de las ramas a detalle
+git show-branch --all
