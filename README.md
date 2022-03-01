@@ -53,6 +53,36 @@ Un incleible blog para el curso de git y github
 - historial de las ramas a detallegit
 > git show-branch --all
 
+- git stash 
+> sirve para guardar de manera temporal los cambios que no se pueden subir aun, devuelve los cambios al ultimo commit
+
+- git stash list
+> para ver el lugar temporal
+
+- git stash pop
+> Devuelve los cambios que se habian echo
+
+- git stash branch nombre rama
+> guardar cambios temporalmente en una nueva rama
+
+- git clean --dry-run
+> simula lo que se va a borrar sin borrarlo 
+
+- git clean -f
+> borra todos los archivos que concidere innecesarios
+> *git clean solo borra las cosas que puede indexar*
+
+- cherry-pick has o numero de commit
+> traer un commit de otra rama, (es una mala practica)
+
+- mezcla cambios nuevos al commit anterior
+   ** uso**
+>  1. git add carpeta/archivo
+>  1. git commit --amend 
+
+- git reflog 
+
+
 *los archivos binarios no se deberian agregar al repositorio*
 
 *abrir en windows archivo de wsl*
