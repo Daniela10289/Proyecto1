@@ -82,6 +82,14 @@ Un incleible blog para el curso de git y github
 
 - git reflog 
 
+- git grep palabra
+> buscar palabras por consola
+
+- git grep color
+> cuantas veces he usado la palabra buscada
+
+- git log -S "cabecera"
+> buscar en la historia de los commits
 
 *los archivos binarios no se deberian agregar al repositorio*
 
